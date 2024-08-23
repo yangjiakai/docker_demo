@@ -1,0 +1,11 @@
+
+mysql_data/
+# 通用忽略规则
+node_modules/
+*.log
+.DS_Store
+
+# 子项目特定规则
+/front_admin/build/
+/front_web/dist/
+/back_api/__pycache__/
